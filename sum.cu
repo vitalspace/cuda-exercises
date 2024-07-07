@@ -28,6 +28,6 @@ int main()
     printf("%d + %d = %d\n", h_a, h_b, h_c);
 
     cudaFree(d_a);
-    cudaFree(d_a);
+    cudaFree(d_b);
     cudaFree(d_c);
 }
